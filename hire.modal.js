@@ -1,7 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-   // your code here
-
-   // Select all nav links
+// Select all nav links
   const navLinks = document.querySelectorAll('.nav-link');
 
   navLinks.forEach(link => {
@@ -68,8 +65,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // Show NGO projects by default
   document.querySelector('.tab-btn[data-category="NGO"]').click();
 });
-
-});
-
 
 
