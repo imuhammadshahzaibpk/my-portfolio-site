@@ -1,283 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <title>Muhammad Shahzaib Fareed </title>
 </head>
+
 <body>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-  (function(){
-    emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS public key
-  })();
-</script>
-<script src="assets/js/hire-modal.js"></script>
+    <script>
+        (function(){
+            emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS public key
+        })();
+    </script>
+    <script src="assets/js/hire-modal.js"></script>
 
- <!-- Navbar -->
-<div class="main navbar navbar-expand-lg navbar-dark bg-black shadow-sm sticky-top w-100">
-  <div class="container">
-    <!-- Logo -->
-    <div class="w-25">
-      <img src="./Assests/MS logo.png" alt="Logo" width="60" height="60" style="filter: invert(1);">
+    <!-- Navbar -->
+    <div class="main navbar navbar-expand-lg navbar-dark bg-black shadow-sm sticky-top w-100">
+        <div class="container">
+            <!-- Logo -->
+            <div class="w-25">
+                <img src="./Assests/MS logo.png" alt="Logo" width="60" height="60" style="filter: invert(1);">
+            </div>
+
+            <!-- Hamburger button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Items -->
+            <div class="content collapse navbar-collapse w-75" id="navbarNav">
+                <ul class="navbar-nav ms-auto justify-content-evenly w-100">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <!-- Menu Items -->
-    <div class="content collapse navbar-collapse w-75" id="navbarNav">
-      <ul class="navbar-nav ms-auto justify-content-evenly w-100">
-        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
+    <!-- Hero Section -->
+    <div id="home" class="hero-main pt-5 py-5">
+        <div class="container">
+            <div class="hero-container d-flex align-items-center justify-content-between">
+                <!-- Left: Image -->
+                <div class="hero-image position-relative">
+                    <img src="./Assests/my image.jpg" alt="Your Image" class="img-fluid hero-photo">
+                    <!-- Bubble animation background -->
+                    <span class="bubble-bg"></span>
+                </div>
+
+                <!-- Right: Content -->
+                <div class="hero-content ms-5">
+                    <h1 class="fw-bold">Muhammad Shahzaib Fareed</h1>
+                    <p class="lead mt-3">
+                        I am a professional Web Developer with experience in creating modern, responsive, 
+                        and user-friendly websites. My expertise includes web design, frontend development, 
+                        and crafting clean interfaces that help businesses grow online. Passionate about 
+                        building digital experiences that blend creativity with functionality.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- Hero Section -->
-<div id="home" class="hero-main pt-5 py-5">
-  <div class="container">
-    <div class="hero-container d-flex align-items-center justify-content-between">
-      
-      <!-- Left: Image -->
-      <div class="hero-image position-relative">
-        <img src="./Assests/my image.jpg" alt="Your Image" 
-             class="img-fluid hero-photo">
-        <!-- Bubble animation background -->
-        <span class="bubble-bg"></span>
-      </div>
-
-      <!-- Right: Content -->
-      <div class="hero-content ms-5">
-        <h1 class="fw-bold">Muhammad Shahzaib Fareed</h1>
-        <p class="lead mt-3">
-          I am a professional Web Developer with experience in creating modern, 
-          responsive, and user-friendly websites. My expertise includes web design, 
-          frontend development, and crafting clean interfaces that help businesses grow online. 
-          Passionate about building digital experiences that blend creativity with functionality.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</div>
-<!-- About Section  -->
+  <!-- About Section -->
 <div id="about" class="about-main py-5">
-  <div class="container">
-    <div class="about-content fade-in-up delay-2">
-      <h2 class="fw-bold mb-4">About Me</h2>
-      <p class="lead">
-        I am a dedicated Web Developer who specializes in building modern, responsive, 
-        and visually appealing websites. My focus is on creating designs that not only look 
-        great but also deliver smooth user experiences.  
-      </p>
-      <p>
-        I work with HTML, CSS, JavaScript, Bootstrap, and WordPress to craft websites that help 
-        businesses grow online. I enjoy solving problems through clean code and creative design.
-      </p>
-      <a href="./Assests/Resume M.Shahzaib.pdf.pdf" class="btn btn-primary btn-lg pulse-hover" download>
-        Download CV
-      </a>
+    <div class="container text-center">
+        <div class="about-content fade-in-up delay-2">
+            <h2 class="fw-bold mb-4">About Me</h2>
+            <p class="lead">
+                I am a dedicated Web Developer who specializes in building modern, responsive, 
+                and visually appealing websites. My focus is on creating designs that not only look 
+                great but also deliver smooth user experiences.
+            </p>
+            <p>
+                I work with HTML, CSS, JavaScript, Bootstrap, and WordPress to craft websites that help 
+                businesses grow online. I enjoy solving problems through clean code and creative design.
+            </p>
+            <!-- Updated CV link for all screens -->
+            <a href="./Assests/Resume M.Shahzaib.pdf" 
+               class="btn btn-primary btn-lg pulse-hover" 
+               target="_blank">
+               Download CV
+            </a>
+        </div>
     </div>
-  </div>
-</div>
-<!-- Services Section  -->
-<div id="services" class="services-main">
-  <div class="container">
-    <h2 class="fw-bold mb-5 fade-in-up">Services I Offer</h2>
-    
-    <div class="services-content fade-in-up delay-1">
-      <!-- Service Card 1: Web Development (Frontend) -->
-      <div class="service-card fade-in-up delay-2">
-        <h3>Web Development (Frontend)</h3>
-        <p>
-          I build modern, responsive, and visually appealing websites using HTML, CSS, 
-          JavaScript, Bootstrap, and other frontend tools to ensure smooth user experiences.
-        </p>
-      </div>
-
-      <!-- Service Card 2: WordPress Development -->
-      <div class="service-card fade-in-up delay-3">
-        <h3>WordPress Development</h3>
-        <p>
-          I create fully functional WordPress websites, including themes and plugins, 
-          ensuring easy content management, responsive design, and optimized performance.
-        </p>
-      </div>
-    </div>
-
-    <!-- Hire Me Button -->
-    <button class="btn btn-primary btn-lg mt-5 custom-btn">Hire Me</button>
-  </div>
 </div>
 
-<!-- ✅ Place modal outside the container -->
-<div id="hireFormModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>Hire Me</h3>
-    <form id="hireForm">
-      <div class="form-group">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" required>
-      </div>
-      <div class="form-group">
-        <label for="requirements">Project Requirements</label>
-        <textarea id="requirements" name="requirements" rows="4" required></textarea>
-      </div>
-      <div class="form-group">
-        <label for="budget">Budget (PKR)</label>
-        <input type="number" id="budget" name="budget" required>
-      </div>
-      <button type="submit" class="btn btn-primary mt-3">Submit</button>
-    </form>
-  </div>
-</div>
 
-<!-- Projects Section -->
-<div id="projects" class="projects-main py-5">
-  <div class="container">
-    <h2 class="fw-bold mb-5 fade-in-up">Projects</h2>
 
-    <!-- Category Tabs -->
-    <div class="projects-tabs mb-4">
-      <button class="tab-btn active" data-category="NGO">NGO Website</button>
-      <button class="tab-btn" data-category="portfolio">Portfolio</button>
-      <button class="tab-btn" data-category="ecommerce">E-commerce</button>
+    <!-- Services Section -->
+    <div id="services" class="services-main">
+        <div class="container">
+            <h2 class="fw-bold mb-5 fade-in-up">Services I Offer</h2>
+            <div class="services-content fade-in-up delay-1">
+                <!-- Service Card 1: Web Development (Frontend) -->
+                <div class="service-card fade-in-up delay-2">
+                    <h3>Web Development (Frontend)</h3>
+                    <p>
+                        I build modern, responsive, and visually appealing websites using HTML, CSS, 
+                        JavaScript, Bootstrap, and other frontend tools to ensure smooth user experiences.
+                    </p>
+                </div>
+
+                <!-- Service Card 2: WordPress Development -->
+                <div class="service-card fade-in-up delay-3">
+                    <h3>WordPress Development</h3>
+                    <p>
+                        I create fully functional WordPress websites, including themes and plugins, 
+                        ensuring easy content management, responsive design, and optimized performance.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Hire Me Button -->
+            <button class="btn btn-primary btn-lg mt-5 custom-btn">Hire Me</button>
+        </div>
     </div>
 
-    <!-- Projects Grid -->
-    <div class="row g-4 projects-grid">
-      <!-- Restaurant Project -->
-      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="NGO">
-        <img src="./Assests/project1.jpg" alt="NGO Project" class="img-fluid project-img">
-        <div class="project-overlay">
-          <a href="https://jahanfoundation.org.pk/" class="btn btn-outline-light">View Project</a>
+    <!-- Hire Modal -->
+    <div id="hireFormModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Hire Me</h3>
+            <form id="hireForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="requirements">Project Requirements</label>
+                    <textarea id="requirements" name="requirements" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget (PKR)</label>
+                    <input type="number" id="budget" name="budget" required>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
         </div>
-        <div class="project-content">
-          <h3>Jahanfoundation</h3>
-          <p>A modern, responsive website for NGO .</p>
-        </div>
-      </div>
-
-      <!-- Portfolio Project -->
-      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="portfolio">
-        <img src="./Assests/project2.jpg" alt="Portfolio Project" class="img-fluid project-img">
-        <div class="project-overlay">
-          <a href="#" class="btn btn-outline-light">View Project</a>
-        </div>
-        <div class="project-content">
-          <h3>Portfolio Website</h3>
-          <p>A futuristic personal portfolio showcasing skills and work.</p>
-        </div>
-      </div>
-
-      <!-- E-commerce Project -->
-      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
-        <img src="./Assests/project3.jpg" alt="E-commerce Project" class="img-fluid project-img">
-        <div class="project-overlay">
-          <a href="https://airazal.com/" class="btn btn-outline-light">View Project</a>
-        </div>
-        <div class="project-content">
-          <h3>Airazal Store</h3>
-          <p>Responsive e-commerce platform with cart and product pages.</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
-        <img src="./Assests/" alt="E-commerce Project" class="img-fluid project-img">
-        <div class="project-overlay">
-          <a href="https://karhai.pk/" class="btn btn-outline-light">View Project</a>
-        </div>
-        <div class="project-content">
-          <h3>Karhai Store</h3>
-          <p>Responsive e-commerce platform with cart and product pages.</p>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
-        <img src="./Assests/" alt="E-commerce Project" class="img-fluid project-img">
-        <div class="project-overlay">
-          <a href="https://bloomart.pk/" class="btn btn-outline-light">View Project</a>
-        </div>
-        <div class="project-content">
-          <h3>Bloomart</h3>
-          <p>Responsive e-commerce platform with cart and product pages.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ================================
-     Contact Section + Footer
-================================ -->
-<div id="contact" class="contact-section py-5">
-  <div class="container text-center">
-
-    <!-- Logo -->
-    <div class="contact-logo mb-4">
-      <img src="./Assests/MS logo.png" alt="Logo" class="footer-logo">
     </div>
 
-    <!-- Contact Info -->
-    <div class="contact-info mb-4">
-      <p>
-  <i class="fas fa-envelope"></i>
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Shahfareed987@gmail.com" target="_blank" rel="noopener">
-    Shahfareed987@gmail.com
-  </a>
-</p>
-      <p>
-        <i class="fas fa-phone-alt"></i> 
-        <a href="https://wa.me/923052093851" target="_blank">03052093851</a>
-      </p>
+    <!-- Projects Section -->
+    <div id="projects" class="projects-main py-5">
+        <div class="container">
+            <h2 class="fw-bold mb-5 fade-in-up">Projects</h2>
+
+            <!-- Category Tabs -->
+            <div class="projects-tabs mb-4">
+                <button class="tab-btn active" data-category="NGO">NGO Website</button>
+                <button class="tab-btn" data-category="portfolio">Portfolio</button>
+                <button class="tab-btn" data-category="ecommerce">E-commerce</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="row g-4 projects-grid">
+                <!-- NGO Project -->
+                <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="NGO">
+                    <img src="./Assests/jahan logo.png" alt="NGO Project" class="img-fluid project-img">
+                    <div class="project-overlay">
+                        <a href="https://jahanfoundation.org.pk/" class="btn btn-outline-light">View Project</a>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jahanfoundation</h3>
+                        <p>A modern, responsive website for NGO.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Project -->
+                <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="portfolio">
+                    <img src="./Assests/project2.jpg" alt="Portfolio Project" class="img-fluid project-img">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-outline-light">View Project</a>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A futuristic personal portfolio showcasing skills and work.</p>
+                    </div>
+                </div>
+
+                <!-- E-commerce Projects -->
+                <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
+                    <img src="./Assests/Airazal logo.png" alt="E-commerce Project" class="img-fluid project-img">
+                    <div class="project-overlay">
+                        <a href="https://airazal.com/" class="btn btn-outline-light">View Project</a>
+                    </div>
+                    <div class="project-content">
+                        <h3>Airazal Store</h3>
+                        <p>Responsive e-commerce platform with cart and product pages.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
+                    <img src="./Assests/karhai logo.png" alt="E-commerce Project" class="img-fluid project-img">
+                    <div class="project-overlay">
+                        <a href="https://karhai.pk/" class="btn btn-outline-light">View Project</a>
+                    </div>
+                    <div class="project-content">
+                        <h3>Karhai Store</h3>
+                        <p>Responsive e-commerce platform with cart and product pages.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
+                    <img src="./Assests/BLOOMART logo.png" alt="E-commerce Project" class="img-fluid project-img">
+                    <div class="project-overlay">
+                        <a href="https://bloomart.pk/" class="btn btn-outline-light">View Project</a>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bloomart</h3>
+                        <p>Responsive e-commerce platform with cart and product pages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Contact Form -->
-    <form id="contact-form" class="contact-form mx-auto">
-      <div class="mb-3">
-        <input type="text" class="form-control" placeholder="Your Name" required>
-      </div>
-      <div class="mb-3">
-        <input type="email" class="form-control" placeholder="Your Email" required>
-      </div>
-      <div class="mb-3">
-        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-contact">Send Message</button>
-    </form>
-  </div>
-</div>
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section py-5">
+        <div class="container text-center">
+            <!-- Logo -->
+            <div class="contact-logo mb-4">
+                <img src="./Assests/MS logo.png" alt="Logo" class="footer-logo">
+            </div>
 
-<!-- Footer -->
-<footer class="footer py-3">
-  <div class="container text-center">
-    <p>&copy; 2025 MS Portfolio | All Rights Reserved</p>
-  </div>
-</footer>
+            <!-- Contact Info -->
+            <div class="contact-info mb-4">
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Shahfareed987@gmail.com" target="_blank" rel="noopener">
+                        Shahfareed987@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="https://wa.me/923052093851" target="_blank">03052093851</a>
+                </p>
+            </div>
 
+            <!-- Contact Form -->
+            <form id="contact-form" class="contact-form mx-auto">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-contact">Send Message</button>
+            </form>
+        </div>
+    </div>
 
+    <!-- Footer -->
+    <footer class="footer py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 MS Portfolio | All Rights Reserved</p>
+        </div>
+    </footer>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init('xmqekni'); // Replace with your EmailJS public key
+        })();
+    </script>
+    <script src="../portfolio/hire.modal.js"></script>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-  (function(){
-    emailjs.init('xmqekni'); // Replace with your EmailJS public key
-  })();
-</script>
-<script src="../portfolio/hire.modal.js"></script>
-
 </html>
