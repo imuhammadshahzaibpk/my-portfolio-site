@@ -63,7 +63,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Show NGO projects by default
-  document.querySelector('.tab-btn[data-category="NGO"]').click();
+  document.querySelector('.tab-btn[data-category="ecommerce"]').click();
 });
+
+
 
 
