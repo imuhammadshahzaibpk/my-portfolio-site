@@ -30,3 +30,28 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+
+// Project Tabs Filtering
+document.addEventListener("DOMContentLoaded", () => {
+  const tabs = document.querySelectorAll(".tab-btn");
+  const projects = document.querySelectorAll(".project-card");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      // Remove active class from all tabs
+      tabs.forEach(btn => btn.classList.remove("active"));
+      tab.classList.add("active");
+
+      const category = tab.getAttribute("data-category");
+
+      projects.forEach(project => {
+        project.style.display = project.getAttribute("data-category") === category ? "block" : "none";
+      });
+    });
+  });
+
+  // Show NGO projects by default
+  document.querySelector('.tab-btn[data-category="NGO"]').click();
+});
+
+

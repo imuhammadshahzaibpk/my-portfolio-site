@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <title>Muhammad Shahzaib Fareed </title>
 </head>
 <body>
@@ -145,6 +146,128 @@
     </form>
   </div>
 </div>
+
+<!-- Projects Section -->
+<div id="projects" class="projects-main py-5">
+  <div class="container">
+    <h2 class="fw-bold mb-5 fade-in-up">Projects</h2>
+
+    <!-- Category Tabs -->
+    <div class="projects-tabs mb-4">
+      <button class="tab-btn active" data-category="NGO">NGO Website</button>
+      <button class="tab-btn" data-category="portfolio">Portfolio</button>
+      <button class="tab-btn" data-category="ecommerce">E-commerce</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="row g-4 projects-grid">
+      <!-- Restaurant Project -->
+      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="NGO">
+        <img src="./Assests/project1.jpg" alt="NGO Project" class="img-fluid project-img">
+        <div class="project-overlay">
+          <a href="https://jahanfoundation.org.pk/" class="btn btn-outline-light">View Project</a>
+        </div>
+        <div class="project-content">
+          <h3>Jahanfoundation</h3>
+          <p>A modern, responsive website for NGO .</p>
+        </div>
+      </div>
+
+      <!-- Portfolio Project -->
+      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="portfolio">
+        <img src="./Assests/project2.jpg" alt="Portfolio Project" class="img-fluid project-img">
+        <div class="project-overlay">
+          <a href="#" class="btn btn-outline-light">View Project</a>
+        </div>
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>A futuristic personal portfolio showcasing skills and work.</p>
+        </div>
+      </div>
+
+      <!-- E-commerce Project -->
+      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
+        <img src="./Assests/project3.jpg" alt="E-commerce Project" class="img-fluid project-img">
+        <div class="project-overlay">
+          <a href="https://airazal.com/" class="btn btn-outline-light">View Project</a>
+        </div>
+        <div class="project-content">
+          <h3>Airazal Store</h3>
+          <p>Responsive e-commerce platform with cart and product pages.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
+        <img src="./Assests/" alt="E-commerce Project" class="img-fluid project-img">
+        <div class="project-overlay">
+          <a href="https://karhai.pk/" class="btn btn-outline-light">View Project</a>
+        </div>
+        <div class="project-content">
+          <h3>Karhai Store</h3>
+          <p>Responsive e-commerce platform with cart and product pages.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 project-card fade-in-up" data-category="ecommerce">
+        <img src="./Assests/" alt="E-commerce Project" class="img-fluid project-img">
+        <div class="project-overlay">
+          <a href="https://bloomart.pk/" class="btn btn-outline-light">View Project</a>
+        </div>
+        <div class="project-content">
+          <h3>Bloomart</h3>
+          <p>Responsive e-commerce platform with cart and product pages.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================================
+     Contact Section + Footer
+================================ -->
+<div id="contact" class="contact-section py-5">
+  <div class="container text-center">
+
+    <!-- Logo -->
+    <div class="contact-logo mb-4">
+      <img src="./Assests/MS logo.png" alt="Logo" class="footer-logo">
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-info mb-4">
+      <p>
+  <i class="fas fa-envelope"></i>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Shahfareed987@gmail.com" target="_blank" rel="noopener">
+    Shahfareed987@gmail.com
+  </a>
+</p>
+      <p>
+        <i class="fas fa-phone-alt"></i> 
+        <a href="https://wa.me/923052093851" target="_blank">03052093851</a>
+      </p>
+    </div>
+
+    <!-- Contact Form -->
+    <form id="contact-form" class="contact-form mx-auto">
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-contact">Send Message</button>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer py-3">
+  <div class="container text-center">
+    <p>&copy; 2025 MS Portfolio | All Rights Reserved</p>
+  </div>
+</footer>
+
 
 
 </body>
